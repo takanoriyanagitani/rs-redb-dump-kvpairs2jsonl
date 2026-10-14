@@ -3,7 +3,15 @@ name = "rs-redb-dump-kvpairs2jsonl"
 version = "0.1.0"
 edition = "2024"
 
+description = "Dump redb key-value pairs to JSONL"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-redb-dump-kvpairs2jsonl"
+homepage = "https://github.com/takanoriyanagitani/rs-redb-dump-kvpairs2jsonl"
+documentation = "https://docs.rs/rs-redb-dump-kvpairs2jsonl/latest"
+keywords = ["redb", "json", "dump", "wasi", "jsonl"]
+
 exclude = [
+	"redb2kvpairs2jsonl.wasm",
 ]
 
 [profile.release-wasi]
